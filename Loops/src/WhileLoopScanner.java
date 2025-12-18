@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class WhileScanner {
+public class WhileLoopScanner {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
 
@@ -9,7 +9,6 @@ public class WhileScanner {
 
     while (true) {
       System.out.println("Enter two numbers:");
-
       if (scanner.hasNextInt()) {
         firstNumber = scanner.nextInt();
       } else {
@@ -28,7 +27,7 @@ public class WhileScanner {
 
       break;
     }
-
-    System.out.println(firstNumber + " " + secondNumber);
+      System.out.println(firstNumber + " " + secondNumber);
+      scanner.close();
   }
 }

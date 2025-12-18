@@ -14,5 +14,15 @@ public class ForLoop {
         System.out.println("j= " + j);
       }
     }
+
+    for (int i = 40; i >= 0; i--) {
+      if (i %2 == 0) {
+        System.out.println(i);
+      }
+    }
+
+    for (int i = 100; i>=0; i-=2) {
+      System.out.println("i= " + i);
+    }
   }
 }
