@@ -4,11 +4,11 @@ import java.time.LocalDate;
 
 public class Main {
   public static void main(String[] args) {
-    Sport box = new Sport("Box", false, "8");
-    Sport karate = new Sport("Karate", true, "10");
+    Sport box = new Sport("Box", false, "8-45");
+    Sport karate = new Sport("Karate", true, "10-50");
 
 
-    Hobby riding = new Hobby("Horse riding", true);
+    Hobby riding = new Hobby("Horse riding", false);
     Hobby painting = new Hobby("Painting", true);
 
     Hobby[] hobbies = {riding, painting};
