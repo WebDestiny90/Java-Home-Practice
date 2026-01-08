@@ -15,6 +15,6 @@ public class Main {
     System.out.println(AnimalClass.name);
     AnimalClass.staticMethod();
 
-    System.out.println(Sport.name);
+    System.out.print(Sport.name);
   }
 }
